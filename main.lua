@@ -75,7 +75,7 @@ if game.PlaceId == 12334109280 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
 
     GUT5:NewButton("3SP", "3SP", function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/multiscriptgateway/main/g%26bp.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sabeeirsharrma/multiscriptgateway/main/g%26bp.lua"))()
         game.StarterGui:SetCore("SendNotification", {
             Title    = "S33 TH3M!";
             Text     = "T3rmin4tor, - Exploiting at it's finest";

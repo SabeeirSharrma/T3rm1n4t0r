@@ -3,9 +3,8 @@ local Window = Library.CreateLib("T3rmin4t0r H4x- BY sabplay#7343", "DarkTheme")
 
 local M4in = Window:NewTab("M4in")
 local GUT5 = M4in:NewSection("GUT5 4ND BL4CK P0WD3R")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
 GUT5:NewButton("3SP", "3SP", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/sabplay/multiscriptgateway/main/g%26bp.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SabeeirSharrma/guts-blackpowder/refs/heads/main/script.lua'))()
     game.StarterGui:SetCore("SendNotification", {
         Title = "S33 TH3M!"; -- the title (ofc)
         Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
@@ -15,7 +14,7 @@ GUT5:NewButton("3SP", "3SP", function()
     end)
 
     GUT5:NewButton("Fly", "fly", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/fly.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/sabeeirsharrma/T3rm1n4t0r/main/fly.lua'))()
         game.StarterGui:SetCore("SendNotification", {
         Title = "FLY!"; -- the title (ofc)
         Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
@@ -48,7 +47,7 @@ end)
         end)
         
         GUT5:NewButton("L0C4L 3D1T0R", "3DIT", function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/editor.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/sabeeirsharrma/T3rm1n4t0r/main/editor.lua"))()
             game.StarterGui:SetCore("SendNotification", {
                 Title = "3D1T!"; -- the title (ofc)
                 Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)

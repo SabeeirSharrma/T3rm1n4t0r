@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("T3rmin4t0r H4x- BY sabplay#7343", "DarkTheme")
+local Window = Library.CreateLib("T3rmin4t0r H4x- BY sabcancode", "DarkTheme")
 
 local M4in = Window:NewTab("M4in")
 local T3ST = M4in:NewSection("T3ST")
@@ -17,7 +17,7 @@ T3ST:NewToggle("SUP3R-HUM4N", "go fast and jump high", function(state)
 end)
 
 T3ST:NewButton("Fly T3ST", "fly", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/fly.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabeeirsharrma/T3rm1n4t0r/main/fly.lua"))()
     game.StarterGui:SetCore("SendNotification", {
         Title    = "FLY!";
         Text     = "T3rmin4tor, - Exploiting at it's finest";
@@ -37,11 +37,11 @@ T3ST:NewButton("L0CAL 3D1T0R T3ST", "", function()
         Icon     = "rbxassetid://14682870738";
         Duration = 5;
     })
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/editor.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabeeirsharrma/T3rm1n4t0r/main/editor.lua"))()
 end)
 
 T3ST:NewButton("BH0P", "BH0P", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/Bhop.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sabeeirsharrma/T3rm1n4t0r/main/Bhop.lua"))()
 end)
 
 local others = Window:NewTab("0TH3R")
@@ -174,7 +174,7 @@ end)
 local setting = Window:NewTab("S3TT1NGS")
 local settings = setting:NewSection("S3TT1NGS")
 
-settings:CreateLabel("M4D3 BY sabplay#7343")
+settings:CreateLabel("M4D3 BY sabcancode")
 settings:CreateLabel("THIS IS THE ONLY OFFICIAL VERSION OF THIS HACK")
 settings:CreateColorpicker("UI Color", function(Color)
     Window:ChangeColor(Color)

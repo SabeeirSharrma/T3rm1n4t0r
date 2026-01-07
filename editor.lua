@@ -10,7 +10,6 @@
     Sentinel
     Synapse
 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
 local Tab = Window:NewTab("LocalPlayer")
 local Section = Tab:NewSection("SP33D")
 Section:NewTextBox("Character speed", "Type in a number to make the speed u want", function(txt)
